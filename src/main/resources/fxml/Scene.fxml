@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import eu.hansolo.medusa.Clock?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.luff.javafx.test.FXMLController">
+    <children>
+      <Clock fx:id="clock" animated="true" layoutX="14.0" layoutY="50.0" lcdFont="STANDARD" prefHeight="169.0" prefWidth="292.0" skinType="TEXT" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="50.0">
+         <customFont>
+            <Font name="Arial" size="12.0" />
+         </customFont></Clock>
+    </children>
+</AnchorPane>
